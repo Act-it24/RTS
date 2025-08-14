@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/unit.gd" id=1]
+[ext_resource type="Texture2D" path="res://assets/unit_worker.png" id=2]
+
+[node name="Unit" type="Node2D"]
+script = ExtResource(1)
+texture_path = "res://assets/unit_worker.png"
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource(2)
+
+[node name="Area" type="Area2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area"]

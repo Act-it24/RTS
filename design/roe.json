@@ -1,0 +1,5 @@
+{
+  "allow_area_fire": false,
+  "civilian_risk_threshold": 100,
+  "friendly_fire_penalty": 5
+}
