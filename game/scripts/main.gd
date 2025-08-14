@@ -153,7 +153,7 @@ func spend(cost: int) -> bool:
 		resources -= cost
 		update_ui()
 		return true
-	return False
+        return false
 
 func update_ui():
 	var txt = "Res: %d   Selected: %d   Obj: %d/3" % [resources, selected.size(), objectives_captured]
